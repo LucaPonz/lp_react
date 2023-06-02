@@ -10,25 +10,25 @@ function Bio() {
     return (
         
         <>
-            <section className="min-h-screen w-screen xl:w-1/2 flex-col flex justify-between order-2 flex-shrink-0">
+            <section className="min-h-screen lg:h-1/2 lg:min-h-0 w-screen xl:w-1/2 xl:h-full flex-col flex justify-between order-2 flex-shrink-0">
                 <div className="w-full flex flex-col">
-                    <h2 className="text-7xl font-roboto font-black uppercase text-black pb-4 bg-white mix-blend-screen pt-10 px-14">About me</h2>
-                    <div className="font-normal text-gray-900 leading-normal bg-white px-14 pb-8 z-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis est, cursus vehicula convallis at, sagittis sit amet neque. Nam sagittis, nunc sed pretium aliquam, nulla tortor accumsan nisi, ut ornare nisi leo ac nisi. Praesent id luctus turpis, quis porta augue. Donec fermentum fringilla turpis, id rutrum felis consectetur a. Morbi varius varius ligula eget consectetur. Praesent egestas congue turpis a ultrices. Curabitur sit amet finibus lacus. Pellentesque elementum dictum tincidunt. Etiam congue tortor nibh, id ullamcorper tellus feugiat vel. Nullam tempus lorem bibendum ligula efficitur, sit amet lacinia arcu rutrum. Integer nec turpis eget velit accumsan euismod dapibus at urna. Vivamus condimentum odio sed magna gravida cursus. Nam gravida molestie pretium. Morbi interdum non leo quis interdum.</div>
+                    <h2 className="text-6xl xl:text-7xl font-roboto font-black uppercase text-black pb-4 bg-white mix-blend-screen pt-10 px-5 xl:px-14">About me</h2>
+                    <div className="font-normal text-gray-900 leading-normal bg-white px-5 xl:px-14 pb-8 z-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis est, cursus vehicula convallis at, sagittis sit amet neque. Nam sagittis, nunc sed pretium aliquam, nulla tortor accumsan nisi, ut ornare nisi leo ac nisi. Praesent id luctus turpis, quis porta augue. Donec fermentum fringilla turpis, id rutrum felis consectetur a. Morbi varius varius ligula eget consectetur. Praesent egestas congue turpis a ultrices. Curabitur sit amet finibus lacus. Pellentesque elementum dictum tincidunt. Etiam congue tortor nibh, id ullamcorper tellus feugiat vel. Nullam tempus lorem bibendum ligula efficitur, sit amet lacinia arcu rutrum. Integer nec turpis eget velit accumsan euismod dapibus at urna. Vivamus condimentum odio sed magna gravida cursus. Nam gravida molestie pretium. Morbi interdum non leo quis interdum.</div>
                 </div>
                 <div className="bg-white flex-grow min-h-0 z-10"></div>
 
                 <div className="flex">
-                    <div className="w-1/3 bg-white z-10 hidden lg:block"></div>
+                    <div className="w-1/3 bg-white z-10 hidden md:block"></div>
                     <div className="w-full lg:w-2/3">
-                        <h2 className="text-7xl font-roboto font-black uppercase text-black bg-white mix-blend-screen pb-4 px-14 break-words">Contact</h2>
-                        <p className="text-normal text-gray-900 mix-blend-screen bg-white px-14"><span className="uppercase font-black text-xl">Call Me</span><br />+39 329 3324473</p>
-                        <p className="text-normal text-gray-900 mix-blend-screen bg-white pb-10 px-14"><span className="uppercase font-black text-xl">Write Me</span><br />lucaponzanelli@hotmail.com</p>
+                        <h2 className="text-6xl xl:text-7xl font-roboto font-black uppercase text-black bg-white mix-blend-screen pb-4 px-5 xl:px-14 break-words">Contact</h2>
+                        <p className="text-normal text-gray-900 mix-blend-screen bg-white px-5 xl:px-14"><span className="uppercase font-black text-xl">Call Me</span><br />+39 329 3324473</p>
+                        <p className="text-normal text-gray-900 mix-blend-screen bg-white pb-10 px-5 xl:px-14"><span className="uppercase font-black text-xl">Write Me</span><br />lucaponzanelli@hotmail.com</p>
                     </div>
                 </div>
             </section>
-            <section class="min-h-screen w-screen xl:w-1/2 pt-10 pb-20 order-3 flex items-center flex-shrink-0 z-0">
+            <section class="min-h-screen lg:h-1/2 lg:min-h-0 w-screen xl:w-1/2 xl:h-full order-3 flex items-center flex-shrink-0 z-0">
                 <div class="w-full flex flex-col px-14">
-                    <h2 class="text-7xl font-roboto font-black uppercase text-white opacity-90 pb-4">Work</h2>
+                    <h2 class="text-6xl lg:text-7xl font-roboto font-black uppercase text-white opacity-90 pb-4">Work</h2>
                     <div class="flex flex-col">
                     
                         <SitePopover
