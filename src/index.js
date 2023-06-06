@@ -10,7 +10,7 @@ import Slider from './Slider'
 extend({GlitchPass});
 createRoot(document.getElementById('root')).render(
   <>
-    <Canvas style={{position:'fixed', top:'0'}}>
+    <Canvas id='canvas' style={{position:'fixed', top:'0'}}>
         <Plane />
         <Effects>
             <glitchPass />

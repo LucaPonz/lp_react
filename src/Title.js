@@ -21,7 +21,7 @@ function Title() {
         });
     }
     return (
-        <div className="h-screen w-screen z-0 flex-shrink-0 order-1">
+        <section className="section h-screen w-screen z-0 flex-shrink-0 order-1">
             <div className="w-full h-full text-white opacity-90 font-roboto flex justify-center items-center">
                 <button className="min-w-0 text-7xl uppercase font-bold tracking-wide flex flex-col items-start" onClick={goToSection}>
                     <p className="block-inline overflow-hidden h-16"><span className="block leading-16 animation">luca</span>
@@ -38,7 +38,7 @@ function Title() {
                     </p>
                 </button>
             </div>
-        </div>
+        </section>
     )
 }
 
