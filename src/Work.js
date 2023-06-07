@@ -6,7 +6,7 @@ import SitePopover from './SitePopover'
 
 function Work() {
     return (
-        <section class="section min-h-screen lg:h-1/2 lg:min-h-0 w-screen xl:w-1/2 xl:h-full order-3 flex items-center flex-shrink-0 z-0">
+        <section class="flex items-center flex-shrink-0 z-0 w-screen h-screen">
                 <div class="w-full flex flex-col px-14">
                     <h2 class="text-6xl lg:text-7xl font-roboto font-black uppercase text-white opacity-90 pb-4">Works</h2>
                     <div class="flex flex-col">
