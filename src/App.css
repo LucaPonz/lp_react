@@ -80,3 +80,7 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.active{
+  @apply shadow-[0_0_0_3px_rgba(255,255,255)]
+}
